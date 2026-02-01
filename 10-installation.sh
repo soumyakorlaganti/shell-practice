@@ -16,3 +16,11 @@ if [ $? -ne 0 ]; then
 else
     echo "installing nginx...SUCCESS"
 fi
+
+dnf install mysql -y
+if [ $? -ne 0 ]; then
+    echo "insalling MySQL...FAILURE"
+    exit 1
+else
+    echo "installing MySQL...SUCCESS"
+fi
