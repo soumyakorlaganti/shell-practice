@@ -9,3 +9,5 @@ elif [ $NUMBER -eq 20 ]; then
 else
     echo "given number: $NUMBER is less than 20"
 fi
+
+# -gt, -lt, -eq, -le, -ge, -ne
