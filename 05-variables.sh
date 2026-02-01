@@ -3,7 +3,7 @@
 # Dynamically passing variable values at the run time
 
 echo "please enter your username::"
-read USER_NAME
+read -s USER_NAME
 
 echo "user name  is $USER_NAME"
 
