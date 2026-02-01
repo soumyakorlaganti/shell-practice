@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Declaring the variables at top
+# Dynamically passing variable values from outside
 
-PERSON1=raju    # no space between value and =
-PERSON2=sai
+PERSON1=$1    # no space between value and =
+PERSON2=$2
 
 
 echo "$PERSON1:: Hello $PERSON2"
