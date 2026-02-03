@@ -8,4 +8,4 @@ P="\e[35m"
 C="\e[36m"
 N="\e[0m"
 
-echo -e "$B Hello sai $N, $G I am learning $N $P Devops $N"
+echo -e "$B Hello sai$N, $G I am learning$N$P Devops$N"
